@@ -24,5 +24,13 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "lodash": "^4.17.21",
+    "lodash.throttle": "^4.1.1",
+    "material-icons": "^1.2.2",
+    "notiflix": "^3.0.2",
+    "simplelightbox": "^2.8.1"
   }
 }
