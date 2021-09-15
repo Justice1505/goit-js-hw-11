@@ -1,14 +1,14 @@
 import 'material-icons';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import './sass/main.scss';
-import ImagesApiService from './services/Api';
-import LoadMoreBtn from './js/components/loadMoreBtn';
-import galleryItemsMrk from './templates/gallery-item.hbs';
+import ImagesApiService from './js/Api';
+import LoadMoreBtn from './js/loadMoreBtn';
+import galleryItemsMrk from './js/gallery-item.hbs';
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import clearMrkInside from './js/clearMarkUp';
 import ScrollToNewImages from './js/scrollToNewImages';
-import ScrollToTopBtn from './js/components/scrollBtn';
+import ScrollToTopBtn from './js/scrollBtn';
 import throttle from 'lodash.throttle';
 
 const refs = {

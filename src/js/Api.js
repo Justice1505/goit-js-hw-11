@@ -15,7 +15,7 @@ export default class ImagesApiService {
             q: this.searchQuery,
             image_type: 'photo',
             orientation: 'horizontal',
-            safeSearch: 'true',
+            safeSearch: true,
             page: this.page,
             per_page: this.perPage,
         });
