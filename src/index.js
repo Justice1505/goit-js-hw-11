@@ -6,7 +6,7 @@ import LoadMoreBtn from './js/components/loadMoreBtn';
 import galleryItemsMrk from './templates/gallery-item.hbs';
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
-import clearMrkInside from './js/clearMrkInside';
+import clearMrkInside from './js/clearMarkUp';
 import ScrollToNewImages from './js/scrollToNewImages';
 import ScrollToTopBtn from './js/components/scrollBtn';
 import throttle from 'lodash.throttle';
@@ -98,5 +98,5 @@ function updateUIAndRefreshLightbox(data) {
 }
 
 function errorNotify(message) {
-    Notiflix.Notify.warningS(`Something went wrong (${message}) please try again later`);
+    Notiflix.Notify.warning(`Something went wrong (${message}) please try again later`);
 }
